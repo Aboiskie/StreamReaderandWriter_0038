@@ -182,4 +182,14 @@ int main() {
     Gudang gudang("gudang.txt");
     TokoElektronik toko;
 
-    
+    int pilihan;
+
+    do {
+        cout << "\n=====================================\n";
+        cout << " SISTEM MANAJEMEN TOKO GIBRAN JAYA\n";
+        cout << "=====================================\n";
+
+        // Read otomatis saat menu dibuka
+        gudang.tampilkanData();
+
+        
