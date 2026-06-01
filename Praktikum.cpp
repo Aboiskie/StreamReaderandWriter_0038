@@ -7,3 +7,7 @@
 
 using namespace std;
 
+// ==============================
+// CLASS TOKO ELEKTRONIK
+// ==============================
+class TokoElektronik {
