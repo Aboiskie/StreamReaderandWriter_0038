@@ -254,4 +254,12 @@ int main() {
 
             break;
 
-       
+        case 0:
+            cout << "Program selesai.\n";
+            break;
+
+        default:
+            cout << "Menu tidak tersedia!\n";
+        }
+
+    
