@@ -44,3 +44,6 @@ public:
 // CLASS GUDANG
 // ==============================
 class Gudang {
+private:
+    string namaFile;
+
