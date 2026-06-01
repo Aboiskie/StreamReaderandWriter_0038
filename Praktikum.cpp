@@ -192,4 +192,36 @@ int main() {
         // Read otomatis saat menu dibuka
         gudang.tampilkanData();
 
-        
+        cout << "\nMENU UTAMA\n";
+        cout << "1. Tambah Barang (Create)\n";
+        cout << "2. Lihat Barang (Read)\n";
+        cout << "3. Update Barang (Update)\n";
+        cout << "4. Hapus Barang (Delete)\n";
+        cout << "5. Simulasi Etalase\n";
+        cout << "0. Keluar\n";
+
+        cout << "Pilih menu: ";
+        cin >> pilihan;
+
+        switch (pilihan) {
+
+        case 1:
+            gudang.tambahBarang();
+            break;
+
+        case 2:
+            gudang.tampilkanData();
+            break;
+
+        case 3:
+            gudang.updateBarang();
+            break;
+
+        case 4:
+            gudang.hapusBarang();
+            break;
+
+        case 5:
+            cout << "\n===== SIMULASI ETALASE =====\n";
+
+           
