@@ -174,3 +174,12 @@ public:
     }
 };
 
+// ==============================
+// MAIN PROGRAM
+// ==============================
+int main() {
+
+    Gudang gudang("gudang.txt");
+    TokoElektronik toko;
+
+    
