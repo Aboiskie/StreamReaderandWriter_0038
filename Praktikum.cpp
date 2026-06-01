@@ -238,4 +238,20 @@ int main() {
                 cout << e.what() << endl;
             }
 
-            
+            // Skenario 2 (Gagal)
+            try {
+                cout << "\nSkenario 2:\n";
+                cout << "Mengambil rak indeks ke-5...\n";
+
+                string barang = toko.ambilProduk(5);
+
+                cout << "Berhasil mengambil: "
+                     << barang << endl;
+            }
+            catch (const exception& e) {
+                cout << e.what() << endl;
+            }
+
+            break;
+
+       
