@@ -26,5 +26,8 @@ public:
     // Method mengambil produk
     string ambilProduk(size_t nomorRak) {
         try {
-       
-        
+            // Wajib menggunakan .at()
+            return etalase.at(nomorRak);
+        }
+        catch (const out_of_range&) {
+           
