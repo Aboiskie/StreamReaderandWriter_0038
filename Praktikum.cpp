@@ -26,16 +26,5 @@ public:
     // Method mengambil produk
     string ambilProduk(size_t nomorRak) {
         try {
-            // Wajib menggunakan .at()
-            return etalase.at(nomorRak);
-        }
-        catch (const out_of_range&) {
-            // Throw custom error
-            throw runtime_error(
-                "Gagal Mengambil Barang : Rak nomor " +
-                to_string(nomorRak) +
-                " kosong atau tidak tersedia!"
-            );
-        }
-    }
-};
+       
+        
