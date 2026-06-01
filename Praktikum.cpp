@@ -84,4 +84,6 @@ public:
         cout << "================================\n";
     }
 
-    
+    // CREATE
+    void tambahBarang() {
+        
