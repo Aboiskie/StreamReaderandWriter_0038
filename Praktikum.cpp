@@ -59,4 +59,8 @@ public:
 
         string barang;
 
+        while (getline(file, barang)) {
+            data.push_back(barang);
+        }
+
         
