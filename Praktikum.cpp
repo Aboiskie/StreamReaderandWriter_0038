@@ -52,4 +52,11 @@ public:
         namaFile = file;
     }
 
-    
+    // READ FILE
+    vector<string> bacaData() {
+        vector<string> data;
+        ifstream file(namaFile);
+
+        string barang;
+
+        
