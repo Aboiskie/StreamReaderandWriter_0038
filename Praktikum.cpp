@@ -11,3 +11,7 @@ using namespace std;
 // CLASS TOKO ELEKTRONIK
 // ==============================
 class TokoElektronik {
+private:
+    // Array private (enkapsulasi)
+    array<string, 3> etalase;
+
