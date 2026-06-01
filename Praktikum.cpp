@@ -121,4 +121,18 @@ public:
             return;
         }
 
+        cin.ignore();
+
+        string barangBaru;
+        cout << "Masukkan nama barang baru: ";
+        getline(cin, barangBaru);
+
+        data[index] = barangBaru;
+
+        ofstream file(namaFile);
+
+        for (string barang : data) {
+            file << barang << endl;
+        }
+
         
