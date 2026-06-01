@@ -71,4 +71,17 @@ public:
     void tampilkanData() {
         vector<string> data = bacaData();
 
-        
+        cout << "\n===== DAFTAR BARANG GUDANG =====\n";
+
+        if (data.empty()) {
+            cout << "Gudang masih kosong.\n";
+        } else {
+            for (size_t i = 0; i < data.size(); i++) {
+                cout << i << ". " << data[i] << endl;
+            }
+        }
+
+        cout << "================================\n";
+    }
+
+    
