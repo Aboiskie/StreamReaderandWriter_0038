@@ -67,4 +67,8 @@ public:
         return data;
     }
 
-    
+    // TAMPILKAN DATA
+    void tampilkanData() {
+        vector<string> data = bacaData();
+
+        
