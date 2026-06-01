@@ -101,4 +101,13 @@ public:
         cout << "Barang berhasil ditambahkan!\n";
     }
 
-    
+    // UPDATE
+    void updateBarang() {
+        vector<string> data = bacaData();
+
+        if (data.empty()) {
+            cout << "Tidak ada data untuk diupdate.\n";
+            return;
+        }
+
+       
