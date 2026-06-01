@@ -86,4 +86,9 @@ public:
 
     // CREATE
     void tambahBarang() {
-        
+        ofstream file(namaFile, ios::app);
+
+        string barang;
+        cin.ignore();
+
+    
