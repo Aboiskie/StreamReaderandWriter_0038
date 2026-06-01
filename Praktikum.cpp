@@ -110,4 +110,15 @@ public:
             return;
         }
 
-       
+        tampilkanData();
+
+        size_t index;
+        cout << "Masukkan nomor barang yang ingin diupdate: ";
+        cin >> index;
+
+        if (index >= data.size()) {
+            cout << "Index tidak valid!\n";
+            return;
+        }
+
+        
