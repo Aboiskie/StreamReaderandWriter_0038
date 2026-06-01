@@ -149,4 +149,28 @@ public:
             return;
         }
 
-       
+        tampilkanData();
+
+        size_t index;
+        cout << "Masukkan nomor barang yang ingin dihapus: ";
+        cin >> index;
+
+        if (index >= data.size()) {
+            cout << "Index tidak valid!\n";
+            return;
+        }
+
+        data.erase(data.begin() + index);
+
+        ofstream file(namaFile);
+
+        for (string barang : data) {
+            file << barang << endl;
+        }
+
+        file.close();
+
+        cout << "Data berhasil dihapus!\n";
+    }
+};
+
