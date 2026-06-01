@@ -63,4 +63,8 @@ public:
             data.push_back(barang);
         }
 
-        
+        file.close();
+        return data;
+    }
+
+    
