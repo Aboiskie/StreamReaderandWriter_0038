@@ -224,4 +224,18 @@ int main() {
         case 5:
             cout << "\n===== SIMULASI ETALASE =====\n";
 
-           
+            // Skenario 1 (Sukses)
+            try {
+                cout << "\nSkenario 1:\n";
+                cout << "Mengambil rak indeks ke-1...\n";
+
+                string barang = toko.ambilProduk(1);
+
+                cout << "Berhasil mengambil: "
+                     << barang << endl;
+            }
+            catch (const exception& e) {
+                cout << e.what() << endl;
+            }
+
+            
