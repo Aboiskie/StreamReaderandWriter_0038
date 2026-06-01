@@ -135,4 +135,18 @@ public:
             file << barang << endl;
         }
 
-        
+        file.close();
+
+        cout << "Data berhasil diupdate!\n";
+    }
+
+    // DELETE
+    void hapusBarang() {
+        vector<string> data = bacaData();
+
+        if (data.empty()) {
+            cout << "Tidak ada data untuk dihapus.\n";
+            return;
+        }
+
+       
