@@ -15,3 +15,12 @@ private:
     // Array private (enkapsulasi)
     array<string, 3> etalase;
 
+public:
+    // Constructor mengisi data awal
+    TokoElektronik() {
+        etalase[0] = "Laptop ASUS";
+        etalase[1] = "Smartphone Samsung";
+        etalase[2] = "Printer Epson";
+    }
+
+    
