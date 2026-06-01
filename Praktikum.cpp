@@ -262,4 +262,7 @@ int main() {
             cout << "Menu tidak tersedia!\n";
         }
 
-    
+    } while (pilihan != 0);
+
+    return 0;
+}
